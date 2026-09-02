@@ -1,0 +1,77 @@
+body{
+    background-color: lightblue;
+
+}
+
+.highlight{
+color: red;
+font-weight: bold;
+
+}
+
+/* ID start with a # */
+
+#main-header{
+    text-align: center;
+    font-size: 32px;
+
+}
+
+/* 
+
+everything in css is a box and each box has layers:
+
+1.content: text, image, whatever is inside
+2 padding: space between content and border 
+3 boder: the line are the element
+4. Margin: space between this element and other elements 
+|<--- margin --->|
+
+use margin to seperate elements apart, and padding to give breathing room inside the element
+
+
+*/
+
+p{
+    margin: 40px;
+    padding: 1px;
+    border: 2px solid black;
+    
+}
+
+/*Links can change style depending on their state 
+
+a:link>>default unvisited link
+
+a:visited>>link the user has already clicked
+
+a:hover>>When the mouse hovers over it 
+
+a:active>>When the link is being clicked 
+
+
+
+
+
+*/
+
+a:link{
+color: pink;
+
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: aqua;
+    text-decoration: wavy;
+    text-shadow: 10cm;
+    font-size: xx-large;
+}
+
+a:active{
+    color: orange;
+
+}
