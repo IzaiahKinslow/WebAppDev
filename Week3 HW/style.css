@@ -1,0 +1,89 @@
+/* css for my website */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+color: navy;
+}
+
+/* nav bar */
+nav {
+    background-color: steelblue;
+    padding: 12px;
+    text-align: center;
+}
+
+/* nav links */
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    color: yellow;
+}
+
+/* the box around content */
+.card {
+    background-color: white;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+.highlight {
+    color: navy;
+    font-weight: bold;
+}
+
+li {
+margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* table stuff */
+td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+th {
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+}
+
+/* pic on homepage */
+img {
+margin: 15px;
+}
+
+footer {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
