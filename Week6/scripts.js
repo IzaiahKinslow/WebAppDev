@@ -4,8 +4,8 @@
 
 
 
-console.log(1===1);
-console.log(1!==1);
+// console.log(1===1);
+// console.log(1!==1);
 
 // let score=85;
 // if (score>=90){

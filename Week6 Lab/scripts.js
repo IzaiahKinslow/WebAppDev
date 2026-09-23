@@ -1,8 +1,7 @@
 
 // 2. Grade Calculator
 
-let score = Number(prompt("Enter your score (0-100):"))[span_4](start_span)[span_4](end_span);
-
+let score = Number(prompt("Enter your score (0-100):"));
 if (score >= 90) {
     console.log("Grade: A");
 } else if (score >= 80) {
@@ -16,18 +15,20 @@ if (score >= 90) {
 
 // 3. Age Check
 
-let age = Number(prompt("Enter your age:"));[span_5](start_span)[span_5](end_span)
+let age = Number(prompt("Enter your age:"));
+
 
 if (age >= 18) {
-    console.log("Adult");[span_6](start_span)[span_6](end_span)
+    console.log("Adult");
 } else {
-    console.log("Minor");[span_7](start_span)[span_7](end_span)
+    console.log("Minor");
 }
 
 
 // 4. Custom Check (Example: Movie Rating Check)
 
 let movieAge = Number(prompt("Enter your age to check movie ticket category:"));
+
 
 if (movieAge <= 12) {
     console.log("Ticket Category: Child (Discounted)");
