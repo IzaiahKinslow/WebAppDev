@@ -1,6 +1,4 @@
 
-
- 
 // Select the form and result section
 const form = document.getElementById("contactForm");
 const result = document.getElementById("resultSection");
