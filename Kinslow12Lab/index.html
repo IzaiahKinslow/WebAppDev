@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title> <!-- Fill in: page title -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Contact Form</h1> <!-- Fill in: heading text -->
+ 
+  <form id="contactForm"> <!-- Give your form an id -->
+    <label for="name">Name:</label> <!-- Label text -->
+    <input id="name" type="text" placeholder="Your name" required />
+    <br>
+    <br>
+ 
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="you@example.com" required />
+    <br>
+    <br>
+ 
+    <label for="age">Age:</label>
+    <input id="age" type="number" placeholder="Your age" required />
+    <br>
+    <br>
+ 
+    <label for="message">Message:</label>
+    <textarea id="message" rows="4" placeholder="Write something..."></textarea>
+    <br>
+    <br>
+ 
+    <button type="submit">Submit</button> <!-- Button type and text -->
+  </form>
+ 
+  <section id="resultSection"></section> <!-- Section to display results -->
+ 
+  <script src="script.js"></script> <!-- JS file name -->
+</body>
+</html>
