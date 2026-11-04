@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>    
+    <!--
+    
+    what are forms?
+    forms are hte main way users send information to the website 
+    forms are wrapped in the <form> tag, and inside we place form control
+    form controls are text boxes, check boxes, buttons, etc
+    -->
+
+    <!--
+    The form element
+    -->
+    <!-- <form> -->
+       
+        <!-- text, we use this input for short text( Name, Titles, etc) -->
+         <label for="username">Name:</label>
+         <input id="username" type="text" placeholder="Enter your name"/>
+        <!-- Email, This inout validates proper email format -->
+         <br>
+         <br>
+
+
+         <label for="email">Email:</label>
+         <input id="email" type="email" placeholder="YOU@EMAIL.COM">
+         <br>
+         <br>
+
+
+        <!-- Number, we use this for a numeric input -->
+         <label for="age">Age</label>
+         <input id="age" type="number" min="0" max="105">
+         <!-- Password, we use this tyoe to mask the users password input -->
+          <br>
+          <br>
+
+
+          <label for="pasword">Password:</label>
+          <input id="password" type="password">
+          <!-- textarea, we use this type for multiline input or comments -->
+            <br>
+           <br>
+
+
+           <label for="message">Message:</label>
+           <textarea id="message" rows="4" column="30"></textarea>
+           <br>
+           <br>
+
+
+           <!-- Radio, this type is grouped by name attribute, only one can be selected -->
+            <p> Fav Size: </p>
+            <label>
+            <input type="radio" name="size" value="small">
+            Small
+            </label>
+
+
+            <br>
+            <br>
+            <!-- Checkbox, this is used for on or off buttons -->
+            <Label>
+                <input type="checkbox" id="subscribe"/>
+                Subscribe to newsletter
+            </Label>
+
+
+            <br>
+            <br>
+            <!-- dropdown, this type creates a drop down list and only one value can be selected  -->
+            <Label for="color"> Fav Color?</Label>
+            <select id="colors">
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="white">white</option>
+            </select>
+
+
+            <br>
+            <br>
+
+        
+
+
+
+
+
+
+
+        </form>
+    
+
+        <form id="contactform">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name:">
+            <button type="submit" >Click here to submit</button>
+
+
+        </form>
+
+
+
+
+
+
+</body>
+</html>
