@@ -1,0 +1,14 @@
+body {
+font-family: Arial, sans-serif;
+/* fixed: filled in the empty background and color values */
+background: #f4f4f4;
+color: #222222;
+padding: 1rem;
+}
+
+/* The 'dark' theme we will toggle later */
+.dark {
+/* fixed: filled in the empty dark mode colors */
+background: #1b1b2f;
+color: #ffd369;
+}
